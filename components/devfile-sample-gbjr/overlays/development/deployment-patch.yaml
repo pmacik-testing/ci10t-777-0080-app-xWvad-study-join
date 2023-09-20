@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-gbjr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-777-0080-tenant/ci10t-777-0080-app/devfile-sample-gbjr@sha256:9fff9ce83e90d998e6bcbaca6b76bd44abbc58a3be3138b7649ceda1d147bc60
+        name: my-nodejs
+        resources: {}
+status: {}
